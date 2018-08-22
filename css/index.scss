@@ -12,5 +12,9 @@
     width: 100%;
     //以iphone6为例，浏览器中的iphone6的宽度是375px；而一般设计师出的设计稿的宽度是750px，所以宽和高等比除以2
     height: px2rem(40px);
+	line-height: px2rem(40px);
     background: #00ff00;
+	font-size: px2rem(20px);
+	color:#fff;
+	text-align: center;
 }

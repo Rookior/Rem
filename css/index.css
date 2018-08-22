@@ -10,5 +10,9 @@
 .header {
   width: 100%;
   height: 1.0666666667rem;
+  line-height: 1.0666666667rem;
   background: #00ff00;
+  font-size: 0.5333333333rem;
+  color: #fff;
+  text-align: center;
 }
