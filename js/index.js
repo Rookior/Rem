@@ -6,3 +6,8 @@ var htmlWidth = document.documentElement.clientWidth || document.body.clientWidt
 var htmlDom = document.getElementsByTagName('html')[0];
 
 htmlDom.style.fontSize = htmlWidth / 10 + 'px';
+
+window.addEventListener('resize',function(e){
+	var htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+	htmlDom.style.fontSize = htmlWidth / 10 + 'px';
+})
